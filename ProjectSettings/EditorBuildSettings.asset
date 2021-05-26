@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/titleScene.unity
+    guid: 0f996578f71c69447862744245ed66aa
+  - enabled: 1
+    path: Assets/Scenes/newMainMenu.unity
+    guid: 416d25bfb47d0cc40b27340450339aed
+  - enabled: 0
+    path: Assets/Scenes/MainMenu.unity
+    guid: 11a9267650e763b469b67714d8876991
+  - enabled: 0
+    path: Assets/Scenes/Production Release/Sprint 13/Sprint13.unity
+    guid: 1e06c1b134177bb469f333845bc8f933
+  - enabled: 0
+    path: Assets/Scenes/Post Production Release/Sprint 14/Sprint14.unity
+    guid: fe7fe1a40b40f854f993d9881c36ea66
+  - enabled: 1
+    path: Assets/Scenes/Post Production Release/Sprint 15/Nick/Nick_Sprint15.unity
+    guid: 35bfff51884b37a4d9087bdb9a978c47
+  m_configObjects: {}

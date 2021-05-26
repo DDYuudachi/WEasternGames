@@ -1,0 +1,27 @@
+# File produced by Open Asset Import Library (http://www.assimp.sf.net)
+# (assimp v3.1.243586452)
+
+newmtl plane2
+kd 0.8 0.8 0.8
+illum 1
+
+newmtl langan
+kd 0.0134106 0.00869022 0.00869022
+illum 1
+
+newmtl wall
+kd 0.8 0.8 0.8
+illum 1
+
+newmtl roof
+kd 0.0420277 0.0420277 0.0420277
+illum 1
+
+newmtl plane2.001
+kd 0.8 0.8 0.8
+illum 1
+
+newmtl door
+kd 0.8 0.8 0.8
+illum 1
+

@@ -1,0 +1,355 @@
+fileFormatVersion: 2
+guid: 2e5a159c259e56548bacf088408893fd
+ModelImporter:
+  serializedVersion: 19301
+  internalIDToNameTable:
+  - first:
+      74: -887982601649841707
+    second: metarig|metarigAction
+  externalObjects: {}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 0
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: MixamoTPose(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Samurai2:Samurai
+      parentName: MixamoTPose(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Samurai2:Hips
+      parentName: MixamoTPose(Clone)
+      position: {x: -0.00000049394913, y: 1.2087318, z: 0.0024590502}
+      rotation: {x: 0.000000032729172, y: 0.000000025547752, z: 0.0000053916874, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Samurai2:Spine
+      parentName: Samurai2:Hips
+      position: {x: 3.8857806e-18, y: 0.16400062, z: -0.0072335135}
+      rotation: {x: -0.022037284, y: 0.00000009327758, z: -0.0000053909416, w: 0.9997572}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Samurai2:Spine1
+      parentName: Samurai2:Spine
+      position: {x: -0, y: 0.19151995, z: 0}
+      rotation: {x: 4.937023e-26, y: -7.264816e-14, z: 6.7957993e-13, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Samurai2:Spine2
+      parentName: Samurai2:Spine1
+      position: {x: -0, y: 0.21888019, z: 8.881784e-18}
+      rotation: {x: -0, y: -6.3108872e-30, z: -6.3108872e-30, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Samurai2:LeftShoulder
+      parentName: Samurai2:Spine2
+      position: {x: -0.10403313, y: 0.21298957, z: -0.00087526103}
+      rotation: {x: 0.5580937, y: -0.43287206, z: 0.56207895, w: 0.43037248}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Samurai2:LeftArm
+      parentName: Samurai2:LeftShoulder
+      position: {x: -0, y: 0.23662077, z: 0}
+      rotation: {x: -0.12847672, y: -0.005564369, z: -0.0026180674, w: 0.9916935}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Samurai2:LeftForeArm
+      parentName: Samurai2:LeftArm
+      position: {x: 8.881784e-18, y: 0.3898907, z: 0}
+      rotation: {x: -0.000000057865623, y: -0.0037732774, z: -0.00000027332837, w: 0.9999929}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Samurai2:LeftHand
+      parentName: Samurai2:LeftForeArm
+      position: {x: 2.6645352e-17, y: 0.39406723, z: 0}
+      rotation: {x: -0.0016817533, y: -0.013870708, z: 0.13541229, w: 0.9906908}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Samurai2:LeftHandThumb1
+      parentName: Samurai2:LeftHand
+      position: {x: 0.033986412, y: 0.05387627, z: 0.024539284}
+      rotation: {x: 0.09601132, y: 0.039764307, z: -0.4572065, w: 0.8832683}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Samurai2:LeftHandThumb2
+      parentName: Samurai2:LeftHandThumb1
+      position: {x: 0.0015082617, y: 0.054589923, z: 2.842171e-16}
+      rotation: {x: 0.00021970298, y: 0.0065333755, z: 0.0060291295, w: 0.9999605}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Samurai2:LeftHandThumb3
+      parentName: Samurai2:LeftHandThumb2
+      position: {x: 0.0020791425, y: 0.052373137, z: 0}
+      rotation: {x: -0.00014230939, y: 0.004645002, z: -0.07018569, w: 0.9975231}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Samurai2:LeftHandThumb4
+      parentName: Samurai2:LeftHandThumb3
+      position: {x: -0.003587404, y: 0.03546013, z: -2.842171e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Samurai2:LeftHandRing1
+      parentName: Samurai2:LeftHand
+      position: {x: -0.016861038, y: 0.18477577, z: 0.0000006767503}
+      rotation: {x: 0.0018559688, y: 0.015277384, z: -0.13658254, w: 0.99050915}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Samurai2:LeftHandRing2
+      parentName: Samurai2:LeftHandRing1
+      position: {x: -0.00011853222, y: 0.050264172, z: 2.842171e-16}
+      rotation: {x: 0.0000075994285, y: -0.001270674, z: -0.0036801891, w: 0.99999243}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Samurai2:LeftHandRing3
+      parentName: Samurai2:LeftHandRing2
+      position: {x: -0.00042632842, y: 0.043790203, z: -2.842171e-16}
+      rotation: {x: 0.000000315147, y: 0.000049548868, z: 0.01179006, w: 0.9999305}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Samurai2:LeftHandRing4
+      parentName: Samurai2:LeftHandRing3
+      position: {x: 0.00054486067, y: 0.03933945, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Samurai2:LeftHandIndex1
+      parentName: Samurai2:LeftHand
+      position: {x: 0.050583117, y: 0.18158172, z: -0.000080218306}
+      rotation: {x: 0.0023109484, y: 0.01857658, z: -0.13616166, w: 0.99050975}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Samurai2:LeftHandIndex2
+      parentName: Samurai2:LeftHandIndex1
+      position: {x: -0.00006891822, y: 0.04504943, z: -2.842171e-16}
+      rotation: {x: -0.00000028929776, y: -0.00009114122, z: 0.0007777664, w: 0.9999997}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Samurai2:LeftHandIndex3
+      parentName: Samurai2:LeftHandIndex2
+      position: {x: 0.0000005993144, y: 0.042098332, z: -2.842171e-16}
+      rotation: {x: 0.0000002811166, y: 0.000111874855, z: 0.0008959923, w: 0.9999996}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Samurai2:LeftHandIndex4
+      parentName: Samurai2:LeftHandIndex3
+      position: {x: 0.00006831891, y: 0.03744616, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Samurai2:Neck
+      parentName: Samurai2:Spine2
+      position: {x: -5.551115e-19, y: 0.24623998, z: -0.0000000068103256}
+      rotation: {x: 0.022037236, y: -2.3038185e-19, z: 1.26889365e-17, w: 0.9997572}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Samurai2:Head
+      parentName: Samurai2:Neck
+      position: {x: -4.440892e-18, y: 0.05368744, z: 0.0077772494}
+      rotation: {x: 0, y: 0, z: 7.75167e-40, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Samurai2:HeadTop_End
+      parentName: Samurai2:Head
+      position: {x: -2.942091e-17, y: 0.36853835, z: 0.05338705}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Samurai2:RightShoulder
+      parentName: Samurai2:Spine2
+      position: {x: 0.10403313, y: 0.21304165, z: -0.002055587}
+      rotation: {x: -0.5549169, y: -0.4350859, z: 0.56501853, w: -0.42839414}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Samurai2:RightArm
+      parentName: Samurai2:RightShoulder
+      position: {x: -1.7763568e-17, y: 0.23662077, z: 0}
+      rotation: {x: -0.12825428, y: 0.00487068, z: 0.00798757, w: 0.9916972}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Samurai2:RightForeArm
+      parentName: Samurai2:RightArm
+      position: {x: -0, y: 0.38988072, z: 0}
+      rotation: {x: 0.00000031061725, y: 0.0021704396, z: -0.00000001938355, w: 0.9999977}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Samurai2:RightHand
+      parentName: Samurai2:RightForeArm
+      position: {x: -1.7763568e-17, y: 0.39172766, z: 0}
+      rotation: {x: -0.009093014, y: -0.009219997, z: -0.18194745, w: 0.983223}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Samurai2:RightHandRing1
+      parentName: Samurai2:RightHand
+      position: {x: 0.016329689, y: 0.14530896, z: -0.0004837414}
+      rotation: {x: 0.016971735, y: -0.03240566, z: 0.17627005, w: 0.9836619}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Samurai2:RightHandRing2
+      parentName: Samurai2:RightHandRing1
+      position: {x: -0.000493769, y: 0.047357406, z: -2.842171e-16}
+      rotation: {x: 0.0000036189408, y: -0.00072754145, z: 0.005996389, w: 0.99998176}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Samurai2:RightHandRing3
+      parentName: Samurai2:RightHandRing2
+      position: {x: 0.00006549992, y: 0.041612674, z: 0}
+      rotation: {x: 0.0000014746855, y: 0.0002821451, z: 0.0046636015, w: 0.9999891}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Samurai2:RightHandRing4
+      parentName: Samurai2:RightHandRing3
+      position: {x: 0.0004282691, y: 0.039304417, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Samurai2:RightHandThumb1
+      parentName: Samurai2:RightHand
+      position: {x: -0.03333288, y: 0.029331151, z: 0.028405543}
+      rotation: {x: 0.14020795, y: -0.03718107, z: 0.39711583, w: 0.90623313}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Samurai2:RightHandThumb2
+      parentName: Samurai2:RightHandThumb1
+      position: {x: -0.009551163, y: 0.041071497, z: 0}
+      rotation: {x: 0.0016616511, y: -0.013401828, z: 0.1049533, w: 0.9943855}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Samurai2:RightHandThumb3
+      parentName: Samurai2:RightHandThumb2
+      position: {x: -0.0008384892, y: 0.04610422, z: 0}
+      rotation: {x: -0.0004109432, y: -0.0033055225, z: 0.14152491, w: 0.9899291}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Samurai2:RightHandThumb4
+      parentName: Samurai2:RightHandThumb3
+      position: {x: 0.010389652, y: 0.038159724, z: -2.842171e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Samurai2:RightHandIndex1
+      parentName: Samurai2:RightHand
+      position: {x: -0.048989072, y: 0.12789293, z: 0.0029086461}
+      rotation: {x: 0.014121441, y: -0.018155515, z: 0.18321702, w: 0.9828034}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Samurai2:RightHandIndex2
+      parentName: Samurai2:RightHandIndex1
+      position: {x: 0.00015438235, y: 0.0475146, z: 0}
+      rotation: {x: 0.000000042487695, y: 0.00015460212, z: -0.002359347, w: 0.9999972}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Samurai2:RightHandIndex3
+      parentName: Samurai2:RightHandIndex2
+      position: {x: -0.00006515881, y: 0.043989368, z: 0}
+      rotation: {x: -0.00000009620111, y: -0.000069668175, z: -0.0004679121, w: 0.9999999}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Samurai2:RightHandIndex4
+      parentName: Samurai2:RightHandIndex3
+      position: {x: -0.00008922354, y: 0.036875185, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Samurai2:LeftUpLeg
+      parentName: Samurai2:Hips
+      position: {x: -0.1571587, y: -0.09362198, z: -0.004802241}
+      rotation: {x: -0.00008510228, y: -0.0022800446, z: 0.9999939, w: 0.002647258}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Samurai2:LeftLeg
+      parentName: Samurai2:LeftUpLeg
+      position: {x: -0, y: 0.53646994, z: 0}
+      rotation: {x: -0.030185765, y: -0.00019635232, z: 0.0058013503, w: 0.99952745}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Samurai2:LeftFoot
+      parentName: Samurai2:LeftLeg
+      position: {x: -0, y: 0.4477041, z: 0}
+      rotation: {x: 0.49686128, y: -0.024063976, z: -0.034756847, w: 0.8667997}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Samurai2:LeftToeBase
+      parentName: Samurai2:LeftFoot
+      position: {x: -3.5527136e-17, y: 0.22218841, z: 1.7763568e-17}
+      rotation: {x: 0.28869286, y: -0.016280314, z: 0.004909804, w: 0.95727074}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Samurai2:LeftToe_End
+      parentName: Samurai2:LeftToeBase
+      position: {x: -3.5527136e-17, y: 0.09365583, z: 2.220446e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Samurai2:RightUpLeg
+      parentName: Samurai2:Hips
+      position: {x: 0.1571587, y: -0.09362198, z: -0.0067098513}
+      rotation: {x: 0.00070004, y: 0.001995221, z: 0.99999434, w: -0.0026341982}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Samurai2:RightLeg
+      parentName: Samurai2:RightUpLeg
+      position: {x: -3.5527136e-17, y: 0.53654176, z: -2.220446e-18}
+      rotation: {x: -0.037449528, y: 0.00025627544, z: -0.00575723, w: 0.99928194}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Samurai2:RightFoot
+      parentName: Samurai2:RightLeg
+      position: {x: -0, y: 0.44781554, z: 2.220446e-18}
+      rotation: {x: 0.4991975, y: 0.024384262, z: 0.03452301, w: 0.8654568}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Samurai2:RightToeBase
+      parentName: Samurai2:RightFoot
+      position: {x: -0, y: 0.22201118, z: 1.7763568e-17}
+      rotation: {x: 0.28893402, y: 0.01643139, z: -0.0049598943, w: 0.95719516}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Samurai2:RightToe_End
+      parentName: Samurai2:RightToeBase
+      position: {x: -0, y: 0.09325413, z: 2.220446e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

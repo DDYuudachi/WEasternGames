@@ -1,0 +1,19 @@
+# File produced by Open Asset Import Library (http://www.assimp.sf.net)
+# (assimp v3.1.243586452)
+
+newmtl stylised foilage
+kd 0.8 0.8 0.8
+illum 1
+
+newmtl tree
+kd 0.0272043 0.0157549 0.0157549
+illum 1
+
+newmtl stylised foilage.001
+kd 0.8 0.8 0.8
+illum 1
+
+newmtl stylised foilage.002
+kd 0.8 0.8 0.8
+illum 1
+

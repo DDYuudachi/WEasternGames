@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: e7d2564fbae56bc4ca663c5aef51f95e
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Harukaze
+  fontNames:
+  - Harukaze
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 95aad71ef95dd3f45aca1c2dd80fe507, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
